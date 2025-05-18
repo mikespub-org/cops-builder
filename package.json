@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "builder:export": "builder download -k YOUR_KEY -o ./builder/exports",
+    "builder:export": "builder download -k $BUILDER_PUBLIC_KEY -o ./builder/exports",
     "builder:sync": "node scripts/sync-builder-exports.js"
   },
   "dependencies": {
